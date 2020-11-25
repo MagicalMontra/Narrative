@@ -1,13 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c247559-3357-46b9-80f8-fd29b486fb82" name="Default Changelist" comment="" />
+    <list default="true" id="0c247559-3357-46b9-80f8-fd29b486fb82" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/CameraCloseupNode.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/CameraCloseupNode.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/CameraFadeCutNode.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/CameraFadeCutNode.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/DelayNode.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/DelayNode.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/ExitNode.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/ExitNode.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/InitiateNode.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/InitiateNode.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/NarrativeDialogNode.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/NarrativeDialogNode.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/NarrativeGraph.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/NarrativeGraph.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/NarrativeNode.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/NarrativeNode.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/NarrativeNodeExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/NarrativeNodeExtensions.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/NarrativeSceneGraph.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/NarrativeSceneGraph.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/SceneGraphRunner.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/SceneGraphRunner.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraCutHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraCutHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraCutSettings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraCutSettings.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraInstaller.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraInstaller.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraPositionContainer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraPositionContainer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraPositionPointPool.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraPositionPointPool.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/MathExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/MathExtensions.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/Singleton.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/Singleton.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/TestCircleRigCloseup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/TestCircleRigCloseup.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/SignalBusSingletonController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/SignalBusSingletonController.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Narrative/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Narrative/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Narrative/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Narrative/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Narrative/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Narrative/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraAimChangeRequestSignal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraAimChangeRequestSignal.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraAimPointHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraAimPointHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraPositionHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraPositionHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/DOTween.XML.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/DOTween.XML.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/DOTween.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/DOTween.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.XML.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.XML.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenIcon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenIcon.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer_dark.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer_dark.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Header.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Header.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/readme.txt.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/readme.txt.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Zenject-ReflectionBaking.csproj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/OptionalExtras/Signals/Zenject-Signals.csproj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Zenject.csproj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/xNode/Examples/RuntimeMathGraph/Scenes/RuntimeGraph.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/xNode/Examples/RuntimeMathGraph/Scenes/RuntimeGraph.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/xNode/Examples/StateMachine/New State Graph.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/xNode/Examples/StateMachine/New State Graph.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/NarrativeDemo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/NarrativeDemo.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Modules/ProjectInstaller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Worklabs/Assets/ModulesSystem/Localisation/LanguageStartCaller.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.6.3/Runtime/Core/CinemachineVirtualCameraBase.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -16,13 +116,45 @@
         <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/EventInvoker.cs" />
         <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/BaseCameraSet.cs" />
         <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/VectorExtensions.cs" />
-        <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/LineRailCameraSet.cs" />
-        <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraAimPointPool.cs" />
         <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraExtensions.cs" />
         <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/OrientCameraSet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/LineRailCameraSet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraChangeNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraAimChangeNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/CameraNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/StartNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/CameraChangeGraph.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/CameraChangeSceneGraph.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/SceneGraphRunner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/NarrativeSceneGraph.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/NarrativeGraph.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/SignalBusSingleton.cs" />
         <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraAimPointHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraAimPointPool.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraPositionPointPool.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraCutSettings.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraCutHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/Singleton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/SingletonFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/SignalBusSingleton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/SignalBusSingletonController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/ProjectInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/ExitNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/CameraAimChangeNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/NarrativeNodeExtensions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/InitiateNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/NarrativeNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/CameraFadeCutNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/CameraCloseup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/TestCircleRigCloseup.cs" />
         <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraAimChangeRequestSignal.cs" />
         <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraPositionContainer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraPositionHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/CameraCloseupNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/DelayNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/NarrativeDialogNode.cs" />
       </list>
     </option>
   </component>
@@ -32,6 +164,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30010834" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -47,10 +181,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="4988">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="4988" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -66,6 +200,9 @@
       <option name="presentableId" value="Default" />
       <updated>1606190429884</updated>
       <workItem from="1606190433733" duration="9169000" />
+      <workItem from="1606213781369" duration="15012000" />
+      <workItem from="1606291269597" duration="6093000" />
+      <workItem from="1606297727921" duration="18794000" />
     </task>
     <servers />
   </component>
@@ -74,13 +211,98 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2714" y="220" key="RiderGenerateDialog" timestamp="1606199976594">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="400" height="464" key="DebuggerActiveHint" timestamp="1606298352924">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="400" height="464" key="DebuggerActiveHint/0.0.1920.1040/-1920.-65.1920.1040@0.0.1920.1040" timestamp="1606298352924" />
+    <state width="1877" height="375" key="GridCell.Tab.0.bottom" timestamp="1606324181644">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-65.1920.1040@0.0.1920.1040" timestamp="1606324181644" />
+    <state width="1877" height="375" key="GridCell.Tab.0.center" timestamp="1606324181643">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-65.1920.1040@0.0.1920.1040" timestamp="1606324181643" />
+    <state width="1877" height="375" key="GridCell.Tab.0.left" timestamp="1606324181643">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-65.1920.1040@0.0.1920.1040" timestamp="1606324181643" />
+    <state width="1877" height="375" key="GridCell.Tab.0.right" timestamp="1606324181644">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-65.1920.1040@0.0.1920.1040" timestamp="1606324181644" />
+    <state width="1877" height="375" key="GridCell.Tab.1.bottom" timestamp="1606324181644">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.-65.1920.1040@0.0.1920.1040" timestamp="1606324181644" />
+    <state width="1877" height="375" key="GridCell.Tab.1.center" timestamp="1606324181644">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.-65.1920.1040@0.0.1920.1040" timestamp="1606324181644" />
+    <state width="1877" height="375" key="GridCell.Tab.1.left" timestamp="1606324181644">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.-65.1920.1040@0.0.1920.1040" timestamp="1606324181644" />
+    <state width="1877" height="375" key="GridCell.Tab.1.right" timestamp="1606324181644">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.-65.1920.1040@0.0.1920.1040" timestamp="1606324181644" />
+    <state width="1877" height="375" key="GridCell.Tab.2.bottom" timestamp="1606324181644">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.2.bottom/0.0.1920.1040/-1920.-65.1920.1040@0.0.1920.1040" timestamp="1606324181644" />
+    <state width="1877" height="375" key="GridCell.Tab.2.center" timestamp="1606324181644">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.2.center/0.0.1920.1040/-1920.-65.1920.1040@0.0.1920.1040" timestamp="1606324181644" />
+    <state width="1877" height="375" key="GridCell.Tab.2.left" timestamp="1606324181644">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.2.left/0.0.1920.1040/-1920.-65.1920.1040@0.0.1920.1040" timestamp="1606324181644" />
+    <state width="1877" height="375" key="GridCell.Tab.2.right" timestamp="1606324181644">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.2.right/0.0.1920.1040/-1920.-65.1920.1040@0.0.1920.1040" timestamp="1606324181644" />
+    <state width="1877" height="375" key="GridCell.Tab.3.bottom" timestamp="1606324181644">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.3.bottom/0.0.1920.1040/-1920.-65.1920.1040@0.0.1920.1040" timestamp="1606324181644" />
+    <state width="1877" height="375" key="GridCell.Tab.3.center" timestamp="1606324181644">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.3.center/0.0.1920.1040/-1920.-65.1920.1040@0.0.1920.1040" timestamp="1606324181644" />
+    <state width="1877" height="375" key="GridCell.Tab.3.left" timestamp="1606324181644">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.3.left/0.0.1920.1040/-1920.-65.1920.1040@0.0.1920.1040" timestamp="1606324181644" />
+    <state width="1877" height="375" key="GridCell.Tab.3.right" timestamp="1606324181644">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.3.right/0.0.1920.1040/-1920.-65.1920.1040@0.0.1920.1040" timestamp="1606324181644" />
+    <state x="794" y="220" key="RiderGenerateDialog" timestamp="1606296533916">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="794" y="220" key="RiderGenerateDialog/0.0.1920.1040/-1920.-65.1920.1040@0.0.1920.1040" timestamp="1606296533916" />
     <state x="2714" y="220" key="RiderGenerateDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1606199976594" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606316172736">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.-65.1920.1040@0.0.1920.1040" timestamp="1606316172736" />
   </component>
 </project>
