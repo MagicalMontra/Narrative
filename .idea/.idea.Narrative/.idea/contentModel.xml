@@ -9,13 +9,74 @@
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="Modules" t="Include">
-          <e p="Cutscene" t="Include">
-            <e p="Node" t="Include">
+        <e p="DOTweenUIAnimation" t="Include">
+          <e p="Script" t="Include">
+            <e p="CanvasLookAtCamera.cs" t="Include" />
+            <e p="ColorMultiplyAnimation.cs" t="Include" />
+            <e p="CompositeAnimation.cs" t="Include" />
+            <e p="DelayAnimation.cs" t="Include" />
+            <e p="DisableAnimation.cs" t="Include" />
+            <e p="ExpandAnimation.cs" t="Include" />
+            <e p="ExpandEnableAnimation.cs" t="Include" />
+            <e p="FadeAnimation.cs" t="Include" />
+            <e p="FadeInAnimation.cs" t="Include" />
+            <e p="FadeLoopAnimation.cs" t="Include" />
+            <e p="GameObjectActivator.cs" t="Include" />
+            <e p="ImageColorChangeAnimation.cs" t="Include" />
+            <e p="ImageFillAnimation.cs" t="Include" />
+            <e p="IUIAnimation.cs" t="Include" />
+            <e p="LocalScaleAnimation.cs" t="Include" />
+            <e p="LocalScaleXAnimation.cs" t="Include" />
+            <e p="LocalScaleYAnimation.cs" t="Include" />
+            <e p="MoveToAnimation.cs" t="Include" />
+            <e p="MoveToYAnimation.cs" t="Include" />
+            <e p="MoveXAnimation.cs" t="Include" />
+            <e p="MoveXLoopAnimation.cs" t="Include" />
+            <e p="MoveYAnimation.cs" t="Include" />
+            <e p="ObjectSwapBehaviour.cs" t="Include" />
+            <e p="RectHeightChangeAnimation.cs" t="Include" />
+            <e p="ScrollingBackground.cs" t="Include" />
+            <e p="ShrinkingLoopAnimation.cs" t="Include" />
+            <e p="TextChangeAnimation.cs" t="Include" />
+            <e p="TextColorChangeAnimation.cs" t="Include" />
+            <e p="TextLoadingAnimation.cs" t="Include" />
+            <e p="TweenSettings.cs" t="Include" />
+            <e p="UIAnimation.cs" t="Include" />
+            <e p="UIAnimationFacade.cs" t="Include" />
+            <e p="ZPosEnableAnimation.cs" t="Include" />
+          </e>
+        </e>
+        <e p="ExtendedUI" t="Include">
+          <e p="ExtendedButton.cs" t="Include" />
+          <e p="ExtendedUI.cs" t="Include" />
+          <e p="ExtendedUIAsset.cs" t="Include" />
+          <e p="IExtendedUI.cs" t="Include" />
+        </e>
+        <e p="Narrative" t="Include">
+          <e p="Camera" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="BaseCameraSet.cs" t="Include" />
               <e p="CameraAimChangeNode.cs" t="Include" />
-              <e p="CameraChangeGraph.cs" t="Include" />
+              <e p="CameraAimChangeRequestSignal.cs" t="Include" />
+              <e p="CameraAimPoint.cs" t="Include" />
+              <e p="CameraAimPointHandler.cs" t="Include" />
+              <e p="CameraAimPointPool.cs" t="Include" />
               <e p="CameraCloseupNode.cs" t="Include" />
+              <e p="CameraController.cs" t="Include" />
+              <e p="CameraCutHandler.cs" t="Include" />
+              <e p="CameraCutSettings.cs" t="Include" />
               <e p="CameraFadeCutNode.cs" t="Include" />
+              <e p="CameraInstaller.cs" t="Include" />
+              <e p="CameraPositionContainer.cs" t="Include" />
+              <e p="CameraPositionHandler.cs" t="Include" />
+              <e p="CameraPositionPointPool.cs" t="Include" />
+              <e p="LineRailCameraSet.cs" t="Include" />
+              <e p="OrientCameraSet.cs" t="Include" />
+              <e p="TestCircleRigCloseup.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Core" t="Include">
+            <e p="Node" t="Include">
               <e p="DelayNode.cs" t="Include" />
               <e p="ExitNode.cs" t="Include" />
               <e p="InitiateNode.cs" t="Include" />
@@ -26,31 +87,32 @@
               <e p="NarrativeSceneGraph.cs" t="Include" />
               <e p="SceneGraphRunner.cs" t="Include" />
             </e>
-            <e p="Script" t="Include">
-              <e p="BaseCameraSet.cs" t="Include" />
-              <e p="CameraAimChangeRequestSignal.cs" t="Include" />
-              <e p="CameraAimPoint.cs" t="Include" />
-              <e p="CameraAimPointHandler.cs" t="Include" />
-              <e p="CameraAimPointPool.cs" t="Include" />
-              <e p="CameraController.cs" t="Include" />
-              <e p="CameraCutHandler.cs" t="Include" />
-              <e p="CameraCutSettings.cs" t="Include" />
-              <e p="CameraInstaller.cs" t="Include" />
-              <e p="CameraPositionContainer.cs" t="Include" />
-              <e p="CameraPositionHandler.cs" t="Include" />
-              <e p="CameraPositionPointPool.cs" t="Include" />
-              <e p="EventInvoker.cs" t="Include" />
-              <e p="LineRailCameraSet.cs" t="Include" />
-              <e p="MathExtensions.cs" t="Include" />
-              <e p="OrientCameraSet.cs" t="Include" />
-              <e p="Singleton.cs" t="Include" />
-              <e p="TestCircleRigCloseup.cs" t="Include" />
-              <e p="VectorExtensions.cs" t="Include" />
-            </e>
+            <e p="ProjectInstaller.cs" t="Include" />
+            <e p="SignalBusSingleton.cs" t="Include" />
+            <e p="SignalBusSingletonController.cs" t="Include" />
           </e>
-          <e p="ProjectInstaller.cs" t="Include" />
-          <e p="SignalBusSingleton.cs" t="Include" />
-          <e p="SignalBusSingletonController.cs" t="Include" />
+          <e p="DialogOption" t="Include">
+            <e p="Database" t="Include">
+              <e p="DialogOptionDatabase.cs" t="Include" />
+              <e p="DialogOptionDatabaseEditor.cs" t="Include" />
+            </e>
+            <e p="DialogOptionController.cs" t="Include" />
+            <e p="DialogOptionData.cs" t="Include" />
+            <e p="DialogOptionDataHandler.cs" t="Include" />
+            <e p="DialogOptionInstaller.cs" t="Include" />
+            <e p="DialogOptionNode.cs" t="Include" />
+            <e p="DialogOptionPresenter.cs" t="Include" />
+            <e p="DialogOptionRequestSignal.cs" t="Include" />
+            <e p="DialogOptionTargetContainer.cs" t="Include" />
+            <e p="DialogOptionTargetPool.cs" t="Include" />
+            <e p="RotateAnimation.cs" t="Include" />
+          </e>
+          <e p="Utilis" t="Include">
+            <e p="EventInvoker.cs" t="Include" />
+            <e p="MathExtensions.cs" t="Include" />
+            <e p="Singleton.cs" t="Include" />
+            <e p="VectorExtensions.cs" t="Include" />
+          </e>
         </e>
         <e p="Plugins" t="Include">
           <e p="AsyncAwaitUtil" t="Include">
@@ -87,16 +149,16 @@
               <e p="ReadMe.txt" t="Include" />
             </e>
           </e>
-          <e p="DOTweenUIAnimation" t="Include">
-            <e p="Script" t="Include">
-              <e p="IUIAnimation.cs" t="Include" />
-              <e p="TweenSettings.cs" t="Include" />
-              <e p="UIAnimation.cs" t="Include" />
-              <e p="UIAnimationFacade.cs" t="Include" />
-            </e>
-          </e>
           <e p="JsonDotNet" t="Include">
             <e p="link.xml" t="Include" />
+          </e>
+          <e p="Nanoid" t="Include">
+            <e p="CryptoRandom.cs" t="Include" />
+            <e p="Nanoid.cs" t="Include" />
+          </e>
+          <e p="TypeConstraint" t="Include">
+            <e p="TypeConstraintAttribute.cs" t="Include" />
+            <e p="TypeConstraintDrawer.cs" t="Include" />
           </e>
           <e p="xNode" t="Include">
             <e p="Examples" t="Include">

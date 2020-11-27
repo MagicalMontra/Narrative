@@ -208,10 +208,7 @@ MonoBehaviour:
       _node: {fileID: 361602569}
       _typeQualifiedName: SETHD.Narrative.NarrativeNode, Assembly-CSharp, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
-      connections:
-      - fieldName: output
-        node: {fileID: 752458773}
-        reroutePoints: []
+      connections: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 1
@@ -275,7 +272,7 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
       connections:
       - fieldName: input
-        node: {fileID: 752458773}
+        node: {fileID: 1417461345}
         reroutePoints: []
       _direction: 1
       _connectionType: 1
@@ -853,10 +850,7 @@ MonoBehaviour:
       _node: {fileID: 752458773}
       _typeQualifiedName: SETHD.Narrative.NarrativeNode, Assembly-CSharp, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
-      connections:
-      - fieldName: output
-        node: {fileID: 386001382}
-        reroutePoints: []
+      connections: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 1
@@ -865,10 +859,7 @@ MonoBehaviour:
       _node: {fileID: 752458773}
       _typeQualifiedName: SETHD.Narrative.NarrativeNode, Assembly-CSharp, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
-      connections:
-      - fieldName: input
-        node: {fileID: 361602569}
-        reroutePoints: []
+      connections: []
       _direction: 1
       _connectionType: 1
       _typeConstraint: 1
@@ -993,6 +984,7 @@ MonoBehaviour:
   - {fileID: 361602569}
   - {fileID: 1481915662}
   - {fileID: 2072920096}
+  - {fileID: 1417461345}
 --- !u!1 &979107188
 GameObject:
   m_ObjectHideFlags: 0
@@ -1449,7 +1441,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   _delay: 0
-  _cycle: 0
+  _cycle: 1
 --- !u!1 &1358161967
 GameObject:
   m_ObjectHideFlags: 0
@@ -1545,6 +1537,86 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1417461345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c2c8b50215a45c8828a642b895c9df0, type: 3}
+  m_Name: Dialog Option
+  m_EditorClassIdentifier: 
+  graph: {fileID: 948176769}
+  position: {x: -122.95301, y: 224.042}
+  ports:
+    keys:
+    - input
+    - output
+    values:
+    - _fieldName: input
+      _node: {fileID: 1417461345}
+      _typeQualifiedName: SETHD.Narrative.NarrativeNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: 386001382}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 1
+      _dynamic: 0
+    - _fieldName: output
+      _node: {fileID: 1417461345}
+      _typeQualifiedName: SETHD.Narrative.NarrativeNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 1475618520}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 1
+      _dynamic: 0
+  isRunning: 0
+  delay: 0
+  input: {fileID: 0}
+  output: {fileID: 0}
+  dialogId: dialog_option_test_NoOsKzP4
+  optionEvents:
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1358161967}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1695512178}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  optionTransforms:
+  - {fileID: 1358161971}
+  - {fileID: 1695512182}
 --- !u!114 &1475618520
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1558,7 +1630,7 @@ MonoBehaviour:
   m_Name: Exit
   m_EditorClassIdentifier: 
   graph: {fileID: 948176769}
-  position: {x: 520, y: -120}
+  position: {x: 552, y: 88}
   ports:
     keys:
     - input
@@ -1570,6 +1642,9 @@ MonoBehaviour:
       connections:
       - fieldName: output
         node: {fileID: 1481915662}
+        reroutePoints: []
+      - fieldName: output
+        node: {fileID: 1417461345}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
@@ -1644,7 +1719,7 @@ MonoBehaviour:
   m_Name: Initiate
   m_EditorClassIdentifier: 
   graph: {fileID: 948176769}
-  position: {x: -1384, y: -152}
+  position: {x: -1400, y: -152}
   ports:
     keys:
     - output
