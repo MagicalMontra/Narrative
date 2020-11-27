@@ -17,5 +17,7 @@ MonoBehaviour:
   - id: dialog_option_test_NoOsKzP4
     name: test
     options:
-    - test 1
-    - test 2
+    - exitOnSelect: 1
+      value: test 1
+    - exitOnSelect: 0
+      value: test 2

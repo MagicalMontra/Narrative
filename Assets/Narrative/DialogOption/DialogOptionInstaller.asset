@@ -13,4 +13,6 @@ MonoBehaviour:
   m_Name: DialogOptionInstaller
   m_EditorClassIdentifier: 
   _database: {fileID: 11400000, guid: 7fcfc7cd847089d4d98e5fe4afc73b48, type: 2}
-  _prefab: {fileID: 8523927045135232369, guid: b22c6751592b14f43adb8229dc1f1467, type: 3}
+  _buttonPrefab: {fileID: 5682723506111203821, guid: 92c5236bc85b5844881ea0366d8d52ab, type: 3}
+  _buttonCanvasPrefab: {fileID: 2427732768859981435, guid: aa5de4e10767d1541a023d1795d92459, type: 3}
+  _positionReferencePrefab: {fileID: 4292554892626619446, guid: 4d0730fd82bc39a45a4376bbf786bb6b, type: 3}

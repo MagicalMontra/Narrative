@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System.Linq;
+using System.Threading.Tasks;
 using UnityEngine;
 using XNode;
 
@@ -20,7 +21,7 @@ namespace SETHD.Narrative
         [Input(ShowBackingValue.Never, ConnectionType.Multiple, TypeConstraint.Inherited)] 
         public NarrativeNode input;
 
-        [Output(ShowBackingValue.Never, ConnectionType.Override, TypeConstraint.Inherited)]
+        [Output(ShowBackingValue.Never, ConnectionType.Multiple, TypeConstraint.Inherited)]
         public NarrativeNode output;
 
         public override async void MoveNext()
@@ -40,14 +41,18 @@ namespace SETHD.Narrative
         [Input(ShowBackingValue.Never, ConnectionType.Multiple, TypeConstraint.Inherited)] 
         public NarrativeNode input;
 
-        [Output(ShowBackingValue.Never, ConnectionType.Override, TypeConstraint.Inherited, true)]
+        [Output(ShowBackingValue.Never, ConnectionType.Multiple, TypeConstraint.Inherited, true)]
         public NarrativeNode output;
         
         public override async void MoveNext()
         {
             await Task.Delay(Mathf.CeilToInt(1000 * delay));
             isRunning = false;
-            this.GetNextNode("output").Run();
+            var count = DynamicPorts.Count();
+            
+            for (int i = 0; i < count; i++)
+                this.GetNextNode($"output {i}").Run();
+
         }
         public override void Run()
         {

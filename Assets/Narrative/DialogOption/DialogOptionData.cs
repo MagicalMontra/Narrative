@@ -10,7 +10,7 @@ namespace SETHD.Narrative.DialogOption
         public int count => options.Count;
         public string id;
         public string name;
-        public List<string> options = new List<string>();
+        public List<OptionData> options = new List<OptionData>();
         
         public DialogOptionData(){}
 
@@ -23,5 +23,12 @@ namespace SETHD.Narrative.DialogOption
                 options.Add(data.options[i]);
 
         }
+    }
+
+    [Serializable]
+    public class OptionData
+    {
+        public bool exitOnSelect;
+        public string value;
     }
 }

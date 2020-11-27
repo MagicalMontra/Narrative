@@ -35,6 +35,12 @@ namespace SETHD.Narrative.DialogOption
             DrawCreateTab();
             DrawSearchTab();
             EditorGUILayout.EndVertical();
+
+            if (GUI.changed)
+            {
+                serializedObject.ApplyModifiedProperties();
+                EditorUtility.SetDirty(_database);
+            }
         }
 
         private void DrawCreateTab()
@@ -62,7 +68,7 @@ namespace SETHD.Narrative.DialogOption
             {
                 if (GUILayout.Button("Add option", EditorStyles.toolbarButton))
                 {
-                    _newData.options.Add("");
+                    _newData.options.Add(new OptionData());
                 }
                 
             }
@@ -72,14 +78,14 @@ namespace SETHD.Narrative.DialogOption
             
             for (int i = 0; i < _newData.options.Count; i++)
             {
-                GUILayout.Label($"Option#{i}: {_newData.options[i]}", EditorStyles.largeLabel);
-                _newData.options[i] = EditorGUILayout.TextArea(_newData.options[i]);
+                GUILayout.Label($"Option#{i}: {_newData.options[i].value}", EditorStyles.largeLabel);
+                _newData.options[i].value = EditorGUILayout.TextArea(_newData.options[i].value);
                 
                 EditorGUILayout.BeginHorizontal();
-                if (GUILayout.Button($"Clear {_newData.options[i]}", EditorStyles.toolbarButton))
-                    _newData.options[i] = "";
+                if (GUILayout.Button($"Clear {_newData.options[i].value}", EditorStyles.toolbarButton))
+                    _newData.options[i].value = "";
                 
-                if (GUILayout.Button($"Remove {_newData.options[i]}", EditorStyles.toolbarButton))
+                if (GUILayout.Button($"Remove {_newData.options[i].value}", EditorStyles.toolbarButton))
                     _newData.options.RemoveAt(i);
                 
                 EditorGUILayout.EndHorizontal();
@@ -127,14 +133,15 @@ namespace SETHD.Narrative.DialogOption
                 for (int j = 0; j < _database.data[i].options.Count; j++)
                 {
                     EditorGUILayout.BeginVertical("Button");
-                    GUILayout.Label($"Option#{j}: {_database.data[i].options[j]}", EditorStyles.largeLabel);
-                    _database.data[i].options[j] = EditorGUILayout.TextArea(_database.data[i].options[j]);
+                    GUILayout.Label($"Option#{j}: {_database.data[i].options[j].value}", EditorStyles.largeLabel);
+                    _database.data[i].options[j].exitOnSelect = EditorGUILayout.Toggle(_database.data[i].options[j].exitOnSelect);
+                    _database.data[i].options[j].value = EditorGUILayout.TextArea(_database.data[i].options[j].value);
                     EditorGUILayout.Space(5);
                     EditorGUILayout.BeginHorizontal();
-                    if (GUILayout.Button($"Clear {_database.data[i].options[j]}", EditorStyles.toolbarButton))
-                        _database.data[i].options[j] = "";
+                    if (GUILayout.Button($"Clear {_database.data[i].options[j].value}", EditorStyles.toolbarButton))
+                        _database.data[i].options[j].value = "";
                     
-                    if (GUILayout.Button($"Remove {_database.data[i].options[j]}", EditorStyles.toolbarButton))
+                    if (GUILayout.Button($"Remove {_database.data[i].options[j].value}", EditorStyles.toolbarButton))
                         _database.data[i].options.RemoveAt(j);
                     
                     EditorGUILayout.EndHorizontal();

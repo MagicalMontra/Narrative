@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\setth\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\setth\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Narrative.1211588417.00" t="ExcludeRecursive" />
-    <e p="D:\Repos\Narrative" t="IncludeRecursive">
+    <e p="C:\Users\Gamespace (Thailand)\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Gamespace (Thailand)\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Narrative.208533184.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Gamespace (Thailand)\Documents\Repos\Narrative" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
@@ -96,15 +96,23 @@
               <e p="DialogOptionDatabase.cs" t="Include" />
               <e p="DialogOptionDatabaseEditor.cs" t="Include" />
             </e>
+            <e p="DialogOptionButton.cs" t="Include" />
+            <e p="DialogOptionButtonFactory.cs" t="Include" />
+            <e p="DialogOptionButtonPool.cs" t="Include" />
+            <e p="DialogOptionCancelRequest.cs" t="Include" />
+            <e p="DialogOptionCanvas.cs" t="Include" />
             <e p="DialogOptionController.cs" t="Include" />
             <e p="DialogOptionData.cs" t="Include" />
             <e p="DialogOptionDataHandler.cs" t="Include" />
             <e p="DialogOptionInstaller.cs" t="Include" />
-            <e p="DialogOptionNode.cs" t="Include" />
+            <e p="DialogOptionPositionReference.cs" t="Include" />
+            <e p="DialogOptionPositionReferencePool.cs" t="Include" />
             <e p="DialogOptionPresenter.cs" t="Include" />
             <e p="DialogOptionRequestSignal.cs" t="Include" />
-            <e p="DialogOptionTargetContainer.cs" t="Include" />
-            <e p="DialogOptionTargetPool.cs" t="Include" />
+            <e p="Node" t="Include">
+              <e p="DialogOptionCancelNode.cs" t="Include" />
+              <e p="DialogOptionNode.cs" t="Include" />
+            </e>
             <e p="RotateAnimation.cs" t="Include" />
           </e>
           <e p="Utilis" t="Include">

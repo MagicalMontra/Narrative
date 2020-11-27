@@ -23,115 +23,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c247559-3357-46b9-80f8-fd29b486fb82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/DOTweenUIAnimation/Script/CanvasLookAtCamera.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/DOTweenUIAnimation/Script/CanvasLookAtCamera.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionDataHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionDataHandler.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionInstaller.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionInstaller.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionNode.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionNode.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionPresenter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionPresenter.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionRequestSignal.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionRequestSignal.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionTargetContainer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionTargetContainer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionTargetPool.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionTargetPool.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/RotateAnimation.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/RotateAnimation.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionButtonFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionButtonFactory.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionButtonPool.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionCancelRequest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionCancelRequest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionCanvas.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionCanvas.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionPositionReference.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionPositionReference.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionPositionReferencePool.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionPositionReferencePool.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/Node/DialogOptionCancelNode.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/Node/DialogOptionCancelNode.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Narrative/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Narrative/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Narrative/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Narrative/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Node.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/CameraAimChangeNode.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/CameraAimChangeNode.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/CameraChangeGraph.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/CameraChangeGraph.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/CameraCloseupNode.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/CameraCloseupNode.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/CameraFadeCutNode.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/CameraFadeCutNode.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/DelayNode.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/DelayNode.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/ExitNode.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/ExitNode.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/InitiateNode.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/InitiateNode.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/NarrativeDialogNode.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/NarrativeDialogNode.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/NarrativeGraph.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/NarrativeGraph.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/NarrativeNode.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/NarrativeNode.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/NarrativeNodeExtensions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/NarrativeNodeExtensions.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/NarrativeSceneGraph.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/NarrativeSceneGraph.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/SceneGraphRunner.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/SceneGraphRunner.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Prefabs/CameraCutUI.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Prefabs/CameraCutUI.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/BaseCameraSet.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/BaseCameraSet.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraAimChangeRequestSignal.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraAimChangeRequestSignal.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraAimPoint.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraAimPoint.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraAimPointHandler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraAimPointHandler.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraAimPointPool.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraAimPointPool.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraCutHandler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraCutHandler.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraCutSettings.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraCutSettings.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraInstaller.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraInstaller.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraPositionContainer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraPositionContainer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraPositionHandler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraPositionHandler.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraPositionPointPool.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraPositionPointPool.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/EventInvoker.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/EventInvoker.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/LineRailCameraSet.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/LineRailCameraSet.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/MathExtensions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/MathExtensions.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/OrientCameraSet.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/OrientCameraSet.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/Singleton.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/Singleton.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/TestCircleRigCloseup.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/TestCircleRigCloseup.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/VectorExtensions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/VectorExtensions.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/ProjectInstaller.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/ProjectInstaller.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/SignalBusSingleton.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/SignalBusSingleton.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/SignalBusSingletonController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/SignalBusSingletonController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/DOTweenUIAnimation.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/DOTweenUIAnimation/Script.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/DOTweenUIAnimation/Script/IUIAnimation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/DOTweenUIAnimation/Script/IUIAnimation.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/DOTweenUIAnimation/Script/TweenSettings.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/DOTweenUIAnimation/Script/TweenSettings.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/DOTweenUIAnimation/Script/UIAnimation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/DOTweenUIAnimation/Script/UIAnimation.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/DOTweenUIAnimation/Script/UIAnimationFacade.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/DOTweenUIAnimation/Script/UIAnimationFacade.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ProjectContext.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ProjectContext.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DOTweenUIAnimation/Script/CanvasLookAtCamera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DOTweenUIAnimation/Script/CanvasLookAtCamera.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Narrative/Core/Node/NarrativeNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Narrative/Core/Node/NarrativeNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Narrative/DialogOption/Database/DialogOptionDatabase.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/Database/DialogOptionDatabase.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Narrative/DialogOption/Database/DialogOptionDatabaseEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/Database/DialogOptionDatabaseEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionInstaller.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionInstaller.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionInstaller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionNode.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionNode.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionPresenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionPresenter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionTargetContainer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionTargetContainer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionButton.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionTargetPool.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionTargetPool.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionButtonPool.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Narrative/DialogOption/Prefab/Container.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Narrative/DialogOption/Prefab/Container.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/NarrativeDemo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/NarrativeDemo.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,22 +68,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Worklabs/Assets/ModulesSystem/Localisation/LanguageStartCaller.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.6.3/Runtime/Core/CinemachineVirtualCameraBase.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/CameraChangeGraph.cs" />
-        <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/CameraChangeSceneGraph.cs" />
-        <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/SceneGraphRunner.cs" />
-        <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/NarrativeSceneGraph.cs" />
-        <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Node/NarrativeGraph.cs" />
-        <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/SignalBusSingleton.cs" />
-        <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraAimPointHandler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraAimPointPool.cs" />
-        <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraPositionPointPool.cs" />
         <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraCutSettings.cs" />
         <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraCutHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/Singleton.cs" />
@@ -186,20 +103,29 @@
         <option value="$PROJECT_DIR$/Assets/Modules/ProjectInstaller.cs" />
         <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraInstaller.cs" />
         <option value="$PROJECT_DIR$/Assets/Plugins/Nanoid/NanoId.cs" />
-        <option value="$PROJECT_DIR$/Assets/Narrative/DialogOption/Database/DialogOptionDatabaseEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionController.cs" />
         <option value="$PROJECT_DIR$/Assets/Narrative/DialogOption/RotateAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/DOTweenUIAnimation/Script/UIAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/DOTweenUIAnimation/Script/FadeLoopAnimation.cs" />
-        <option value="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Narrative/Core/Node/NarrativeNode.cs" />
-        <option value="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionInstaller.cs" />
         <option value="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionNode.cs" />
         <option value="$PROJECT_DIR$/Assets/Narrative/Core/Node/NarrativeNodeExtensions.cs" />
-        <option value="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionTargetPool.cs" />
         <option value="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionRequestSignal.cs" />
+        <option value="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Narrative/DialogOption/Database/DialogOptionDatabaseEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Narrative/DialogOption/Node/DialogOptionNode.cs" />
         <option value="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionTargetContainer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionButtonFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionTargetPool.cs" />
+        <option value="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionButtonPool.cs" />
+        <option value="$PROJECT_DIR$/Assets/DOTweenUIAnimation/Script/CanvasLookAtCamera.cs" />
+        <option value="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionPositionReference.cs" />
+        <option value="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionCanvas.cs" />
+        <option value="$PROJECT_DIR$/Assets/Narrative/DialogOption/Node/DialogOptionCancelNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionPositionReferencePool.cs" />
         <option value="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionPresenter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Narrative/Core/Node/NarrativeNode.cs" />
       </list>
     </option>
   </component>
@@ -232,10 +158,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="12292">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="12292" />
+      <option name="pid" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -255,6 +181,7 @@
       <workItem from="1606291269597" duration="6093000" />
       <workItem from="1606297727921" duration="18794000" />
       <workItem from="1606359382558" duration="22732000" />
+      <workItem from="1606462656881" duration="10345000" />
     </task>
     <servers />
   </component>
@@ -352,14 +279,19 @@
     </state>
     <state x="794" y="220" key="RiderGenerateDialog/0.0.1920.1040/-1920.-65.1920.1040@0.0.1920.1040" timestamp="1606393691342" />
     <state x="2714" y="220" key="RiderGenerateDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1606199976594" />
+    <state x="2012" y="92" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1606463792545">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2012" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1606463792545" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1606390165496">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1920.-65.1920.1040@0.0.1920.1040" timestamp="1606390165496" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606439205665">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606473388894">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.-65.1920.1040@0.0.1920.1040" timestamp="1606439205665" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1606473388894" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -367,14 +299,7 @@
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/ExtendedUI/ExtendedButton.cs</url>
           <line>23</line>
-          <properties documentPath="D:\Repos\Narrative\Assets\ExtendedUI\ExtendedButton.cs" initialLine="23">
-            <startOffsets>
-              <option value="630" />
-            </startOffsets>
-            <endOffsets>
-              <option value="688" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="D:\Repos\Narrative\Assets\ExtendedUI\ExtendedButton.cs" initialLine="23" />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>

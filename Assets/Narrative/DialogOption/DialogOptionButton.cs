@@ -5,10 +5,9 @@ using Zenject;
 
 namespace SETHD.Narrative.DialogOption
 {
-    public class DialogOptionTargetContainer : MonoBehaviour
+    public class DialogOptionButton : MonoBehaviour
     {
         public bool isActive => _isActive;
-        public Transform target;
         public ExtendedButton button;
 
         [SerializeField] private UIAnimationFacade _indicatorAnimation;
@@ -28,6 +27,6 @@ namespace SETHD.Narrative.DialogOption
             _isActive = enabled;
         }
         
-        public class Factory : PlaceholderFactory<DialogOptionTargetContainer> { }
+        public class Factory : PlaceholderFactory<Object, Transform, DialogOptionButton> { }
     }
 }

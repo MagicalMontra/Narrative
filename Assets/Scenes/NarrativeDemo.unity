@@ -208,7 +208,10 @@ MonoBehaviour:
       _node: {fileID: 361602569}
       _typeQualifiedName: SETHD.Narrative.NarrativeNode, Assembly-CSharp, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
-      connections: []
+      connections:
+      - fieldName: output 0
+        node: {fileID: 1417461345}
+        reroutePoints: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 1
@@ -222,7 +225,7 @@ MonoBehaviour:
         node: {fileID: 2072920096}
         reroutePoints: []
       _direction: 1
-      _connectionType: 1
+      _connectionType: 0
       _typeConstraint: 1
       _dynamic: 0
   isRunning: 0
@@ -248,7 +251,7 @@ MonoBehaviour:
   m_Name: Camera Fade Cut
   m_EditorClassIdentifier: 
   graph: {fileID: 948176769}
-  position: {x: -680, y: -152}
+  position: {x: -936, y: -168}
   ports:
     keys:
     - input
@@ -275,7 +278,7 @@ MonoBehaviour:
         node: {fileID: 1417461345}
         reroutePoints: []
       _direction: 1
-      _connectionType: 1
+      _connectionType: 0
       _typeConstraint: 1
       _dynamic: 0
   isRunning: 0
@@ -348,7 +351,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 407337213}
   m_LocalRotation: {x: -0.12777065, y: 0.8405773, z: -0.22587815, w: -0.4754824}
-  m_LocalPosition: {x: 13.846131, y: 9.3580065, z: 11.162766}
+  m_LocalPosition: {x: -2.65, y: 9.3580065, z: 21.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1753910197}
@@ -732,6 +735,56 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &603942423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3b38759c6945c7a8d492735e32c36d, type: 3}
+  m_Name: Camera Aim Change
+  m_EditorClassIdentifier: 
+  graph: {fileID: 948176769}
+  position: {x: 8, y: 200}
+  ports:
+    keys:
+    - input
+    - output
+    values:
+    - _fieldName: input
+      _node: {fileID: 603942423}
+      _typeQualifiedName: SETHD.Narrative.NarrativeNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: output 1
+        node: {fileID: 1417461345}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 1
+      _dynamic: 0
+    - _fieldName: output
+      _node: {fileID: 603942423}
+      _typeQualifiedName: SETHD.Narrative.NarrativeNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 1749995249}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 1
+      _dynamic: 0
+  isRunning: 0
+  delay: 0
+  input: {fileID: 0}
+  output: {fileID: 0}
+  camera: {fileID: 407337214}
+  objectsToAim:
+  - {fileID: 1695512182}
 --- !u!1 &637923071
 GameObject:
   m_ObjectHideFlags: 0
@@ -827,47 +880,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 637923071}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &752458773
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a00495463f2a4662a9ae5e6378aac67c, type: 3}
-  m_Name: Delay
-  m_EditorClassIdentifier: 
-  graph: {fileID: 948176769}
-  position: {x: -440, y: -136}
-  ports:
-    keys:
-    - input
-    - output
-    values:
-    - _fieldName: input
-      _node: {fileID: 752458773}
-      _typeQualifiedName: SETHD.Narrative.NarrativeNode, Assembly-CSharp, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-      connections: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 1
-      _dynamic: 0
-    - _fieldName: output
-      _node: {fileID: 752458773}
-      _typeQualifiedName: SETHD.Narrative.NarrativeNode, Assembly-CSharp, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-      connections: []
-      _direction: 1
-      _connectionType: 1
-      _typeConstraint: 1
-      _dynamic: 0
-  isRunning: 0
-  delay: 3
-  input: {fileID: 0}
-  output: {fileID: 0}
 --- !u!1 &878728970
 GameObject:
   m_ObjectHideFlags: 3
@@ -980,11 +992,13 @@ MonoBehaviour:
   - {fileID: 1475618520}
   - {fileID: 1716822877}
   - {fileID: 386001382}
-  - {fileID: 752458773}
   - {fileID: 361602569}
   - {fileID: 1481915662}
   - {fileID: 2072920096}
   - {fileID: 1417461345}
+  - {fileID: 1896484306}
+  - {fileID: 603942423}
+  - {fileID: 1749995249}
 --- !u!1 &979107188
 GameObject:
   m_ObjectHideFlags: 0
@@ -1550,11 +1564,13 @@ MonoBehaviour:
   m_Name: Dialog Option
   m_EditorClassIdentifier: 
   graph: {fileID: 948176769}
-  position: {x: -122.95301, y: 224.042}
+  position: {x: -680, y: -168}
   ports:
     keys:
     - input
     - output
+    - output 0
+    - output 1
     values:
     - _fieldName: input
       _node: {fileID: 1417461345}
@@ -1577,43 +1593,38 @@ MonoBehaviour:
         node: {fileID: 1475618520}
         reroutePoints: []
       _direction: 1
-      _connectionType: 1
+      _connectionType: 0
       _typeConstraint: 1
       _dynamic: 0
+    - _fieldName: output 0
+      _node: {fileID: 1417461345}
+      _typeQualifiedName: SETHD.Narrative.NarrativeNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 361602569}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 1
+      _dynamic: 1
+    - _fieldName: output 1
+      _node: {fileID: 1417461345}
+      _typeQualifiedName: SETHD.Narrative.NarrativeNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 603942423}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 1
+      _dynamic: 1
   isRunning: 0
   delay: 0
   input: {fileID: 0}
   output: {fileID: 0}
   dialogId: dialog_option_test_NoOsKzP4
-  optionEvents:
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1358161967}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1695512178}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
   optionTransforms:
   - {fileID: 1358161971}
   - {fileID: 1695512182}
@@ -1630,7 +1641,7 @@ MonoBehaviour:
   m_Name: Exit
   m_EditorClassIdentifier: 
   graph: {fileID: 948176769}
-  position: {x: 552, y: 88}
+  position: {x: 824, y: 72}
   ports:
     keys:
     - input
@@ -1641,10 +1652,10 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
       connections:
       - fieldName: output
-        node: {fileID: 1481915662}
+        node: {fileID: 1417461345}
         reroutePoints: []
       - fieldName: output
-        node: {fileID: 1417461345}
+        node: {fileID: 1749995249}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
@@ -1690,10 +1701,10 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
       connections:
       - fieldName: input
-        node: {fileID: 1475618520}
+        node: {fileID: 1749995249}
         reroutePoints: []
       _direction: 1
-      _connectionType: 1
+      _connectionType: 0
       _typeConstraint: 1
       _dynamic: 0
   isRunning: 0
@@ -1719,7 +1730,7 @@ MonoBehaviour:
   m_Name: Initiate
   m_EditorClassIdentifier: 
   graph: {fileID: 948176769}
-  position: {x: -1400, y: -152}
+  position: {x: -1656, y: -168}
   ports:
     keys:
     - output
@@ -1847,7 +1858,7 @@ MonoBehaviour:
   m_Name: Camera Fade Cut
   m_EditorClassIdentifier: 
   graph: {fileID: 948176769}
-  position: {x: -1144, y: -152}
+  position: {x: -1400, y: -168}
   ports:
     keys:
     - input
@@ -1874,7 +1885,7 @@ MonoBehaviour:
         node: {fileID: 2105409978}
         reroutePoints: []
       _direction: 1
-      _connectionType: 1
+      _connectionType: 0
       _typeConstraint: 1
       _dynamic: 0
   isRunning: 0
@@ -1887,6 +1898,56 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 4278190080
   ease: 4
+--- !u!114 &1749995249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c789ac80c11f4c8da4cbfdfb2a515d53, type: 3}
+  m_Name: Dialog Option Cancel
+  m_EditorClassIdentifier: 
+  graph: {fileID: 948176769}
+  position: {x: 344, y: 216}
+  ports:
+    keys:
+    - input
+    - output
+    values:
+    - _fieldName: input
+      _node: {fileID: 1749995249}
+      _typeQualifiedName: SETHD.Narrative.NarrativeNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: 1481915662}
+        reroutePoints: []
+      - fieldName: output
+        node: {fileID: 603942423}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 1
+      _dynamic: 0
+    - _fieldName: output
+      _node: {fileID: 1749995249}
+      _typeQualifiedName: SETHD.Narrative.NarrativeNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 1475618520}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 1
+      _dynamic: 0
+  isRunning: 0
+  delay: 0
+  input: {fileID: 0}
+  output: {fileID: 0}
 --- !u!1 &1753910196
 GameObject:
   m_ObjectHideFlags: 3
@@ -2062,6 +2123,51 @@ MonoBehaviour:
         m_CallState: 2
   _delay: 2
   _cycle: 1
+--- !u!114 &1896484306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3bfadc49e004a5381dc589e2f35a5b4, type: 3}
+  m_Name: Camera Closeup
+  m_EditorClassIdentifier: 
+  graph: {fileID: 948176769}
+  position: {x: 40, y: -136}
+  ports:
+    keys:
+    - input
+    - output
+    values:
+    - _fieldName: input
+      _node: {fileID: 1896484306}
+      _typeQualifiedName: SETHD.Narrative.NarrativeNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 1
+      _dynamic: 0
+    - _fieldName: output
+      _node: {fileID: 1896484306}
+      _typeQualifiedName: SETHD.Narrative.NarrativeNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 1
+      _dynamic: 0
+  isRunning: 0
+  delay: 1
+  input: {fileID: 0}
+  output: {fileID: 0}
+  distance: 4
+  angleThreshold: 0.45
+  target: {fileID: 637923072}
+  camera: {fileID: 407337214}
 --- !u!1 &1942218188
 GameObject:
   m_ObjectHideFlags: 0
@@ -2141,7 +2247,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1942218188}
   m_LocalRotation: {x: -0.12777065, y: 0.8405773, z: -0.22587815, w: -0.4754824}
-  m_LocalPosition: {x: 13.846131, y: 9.3580065, z: 11.162766}
+  m_LocalPosition: {x: -2.65, y: 9.3580065, z: 21.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2318,7 +2424,7 @@ MonoBehaviour:
         node: {fileID: 1481915662}
         reroutePoints: []
       _direction: 1
-      _connectionType: 1
+      _connectionType: 0
       _typeConstraint: 1
       _dynamic: 0
   isRunning: 0
@@ -2342,7 +2448,7 @@ MonoBehaviour:
   m_Name: Camera Aim Change
   m_EditorClassIdentifier: 
   graph: {fileID: 948176769}
-  position: {x: -920, y: -168}
+  position: {x: -1176, y: -184}
   ports:
     keys:
     - input
@@ -2369,7 +2475,7 @@ MonoBehaviour:
         node: {fileID: 386001382}
         reroutePoints: []
       _direction: 1
-      _connectionType: 1
+      _connectionType: 0
       _typeConstraint: 1
       _dynamic: 0
   isRunning: 0
