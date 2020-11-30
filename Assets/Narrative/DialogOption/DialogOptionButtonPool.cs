@@ -24,6 +24,7 @@ namespace SETHD.Narrative.DialogOption
             if (ReferenceEquals(button, null))
             {
                 button = _buttonFactory.Create(_buttonPrefab, canvas);
+                _buttonPool.Add(button);
             }
 
             return button;

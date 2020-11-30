@@ -19,9 +19,12 @@ namespace SETHD.Narrative
                     break;
                 }
             }
-            
+
             if (ReferenceEquals(container, null))
+            {
                 container = new GameObject("Camera Pos Container").AddComponent<CameraPositionContainer>();
+                _containers.Add(container);
+            }
 
             return container;
         }

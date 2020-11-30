@@ -19,11 +19,19 @@ namespace SETHD.Narrative
                     break;
                 }
             }
-            
+
             if (ReferenceEquals(aimPoint, null))
+            {
                 aimPoint = new GameObject("aim point").AddComponent<CameraAimPoint>();
+                _aimPoints.Add(aimPoint);
+            }
 
             return aimPoint;
+        }
+
+        public void DisableAll()
+        {
+            _aimPoints.ForEach(reference => reference.SetDisable());
         }
     }
 }

@@ -12,5 +12,10 @@ namespace SETHD.Narrative
             _active = true;
             return transform;
         }
+
+        public void SetDisable()
+        {
+            _active = false;
+        }
     }
 }

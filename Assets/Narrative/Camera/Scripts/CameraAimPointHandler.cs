@@ -14,6 +14,7 @@ namespace SETHD.Narrative
                 camera.LookAt = transforms[0];
             else
             {
+                _pool.DisableAll();
                 var centerPoint = VectorExtensions.FindCenter(transforms);
                 var aimPoint = _pool.GetAimPoint().SetAimPoint();
                 aimPoint.position = centerPoint;

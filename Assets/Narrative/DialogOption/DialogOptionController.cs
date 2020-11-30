@@ -14,7 +14,7 @@ namespace SETHD.Narrative.DialogOption
             var runtimeData = _dataHandler.Handle(signal.id);
             
             if (runtimeData != null)
-                _signalBus.Fire(new DialogOptionResponseSignal(runtimeData, signal.events, signal.transforms));
+                _signalBus.Fire(new DialogOptionResponseSignal(runtimeData, signal.events, signal.transforms, signal.exitEvent));
         }
     }
 }

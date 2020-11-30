@@ -16,7 +16,10 @@ namespace SETHD.Narrative.DialogOption
         public void Initialize()
         {
             if (ReferenceEquals(_canvas, null))
+            {
                 _canvas = _canvasFactory.Create();
+                _canvas.gameObject.SetActive(false);
+            }
 
             if (ReferenceEquals(_refPoolTransform, null))
             {

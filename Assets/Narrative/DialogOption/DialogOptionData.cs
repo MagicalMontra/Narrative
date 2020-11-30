@@ -19,6 +19,7 @@ namespace SETHD.Narrative.DialogOption
         {
             id = data.id;
             name = data.name;
+            haveExit = data.haveExit;
 
             for (int i = 0; i < data.options.Count; i++)
                 options.Add(data.options[i]);

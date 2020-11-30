@@ -24,6 +24,7 @@ namespace SETHD.Narrative.DialogOption
             {
                 positionReference = _positionReferenceFactory.Create();
                 positionReference.transform.SetParent(pool.transform);
+                _positionReferences.Add(positionReference);
             }
 
             return positionReference;
