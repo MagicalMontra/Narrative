@@ -23,41 +23,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c247559-3357-46b9-80f8-fd29b486fb82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionButtonFactory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionButtonFactory.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionButtonPool.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionCancelRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionCancelRequest.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionCanvas.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionCanvas.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionPositionReference.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionPositionReference.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionPositionReferencePool.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionPositionReferencePool.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/Node/DialogOptionCancelNode.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/Node/DialogOptionCancelNode.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/Node/DialoOptionNodeEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/Node/DialoOptionNodeEditor.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Narrative/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Narrative/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Narrative/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Narrative/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DOTweenUIAnimation/Script/CanvasLookAtCamera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DOTweenUIAnimation/Script/CanvasLookAtCamera.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Narrative/Core/Node/NarrativeNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Narrative/Core/Node/NarrativeNode.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Narrative/DialogOption/Database/DialogOptionDatabase.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/Database/DialogOptionDatabase.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Narrative/DialogOption/Database/DialogOptionDatabaseEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/Database/DialogOptionDatabaseEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionCanvas.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionCanvas.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionInstaller.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionInstaller.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionInstaller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionNode.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionNode.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionPresenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionPresenter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionTargetContainer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionTargetContainer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionButton.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionTargetPool.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionTargetPool.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionButtonPool.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Narrative/DialogOption/Prefab/Container.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Narrative/DialogOption/Prefab/Container.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionRequestSignal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionRequestSignal.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Narrative/DialogOption/Node/DialogOptionNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/Node/DialogOptionNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Narrative/DialogOption/Prefab/Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Narrative/DialogOption/Prefab/Canvas.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Zenject-ReflectionBaking.csproj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/OptionalExtras/Signals/Zenject-Signals.csproj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Zenject.csproj.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/NarrativeDemo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/NarrativeDemo.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,15 +49,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FE84F4A7-54DA-4A6B-B64F-CA409D40938A/69/a80996b8/UnityEvent.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Worklabs/Assets/ModulesSystem/Localisation/LanguageStartCaller.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.6.3/Runtime/Core/CinemachineVirtualCameraBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/507F517A-E786-4F43-9B73-0EED1DBF6793/79/924ca717/ReorderableList.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FE84F4A7-54DA-4A6B-B64F-CA409D40938A/b5/a7969342/UnityEventBase.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraCutSettings.cs" />
-        <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/CameraCutHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/Singleton.cs" />
         <option value="$PROJECT_DIR$/Assets/Modules/Cutscene/Script/SingletonFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/Modules/SignalBusSingleton.cs" />
@@ -108,11 +90,6 @@
         <option value="$PROJECT_DIR$/Assets/DOTweenUIAnimation/Script/UIAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/DOTweenUIAnimation/Script/FadeLoopAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionNode.cs" />
-        <option value="$PROJECT_DIR$/Assets/Narrative/Core/Node/NarrativeNodeExtensions.cs" />
-        <option value="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionRequestSignal.cs" />
-        <option value="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Narrative/DialogOption/Database/DialogOptionDatabaseEditor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Narrative/DialogOption/Node/DialogOptionNode.cs" />
         <option value="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionTargetContainer.cs" />
         <option value="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionButtonFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionTargetPool.cs" />
@@ -120,12 +97,19 @@
         <option value="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionButtonPool.cs" />
         <option value="$PROJECT_DIR$/Assets/DOTweenUIAnimation/Script/CanvasLookAtCamera.cs" />
         <option value="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionPositionReference.cs" />
-        <option value="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionCanvas.cs" />
         <option value="$PROJECT_DIR$/Assets/Narrative/DialogOption/Node/DialogOptionCancelNode.cs" />
         <option value="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionInstaller.cs" />
         <option value="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionPositionReferencePool.cs" />
-        <option value="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionPresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Narrative/Core/Node/NarrativeNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Narrative/Core/Node/NarrativeNodeExtensions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Narrative/DialogOption/Database/DialogOptionDatabaseEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionCanvas.cs" />
+        <option value="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionRequestSignal.cs" />
+        <option value="$PROJECT_DIR$/Assets/Narrative/DialogOption/DialogOptionPresenter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Narrative/DialogOption/Node/DialogOptionNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/xNode/Scripts/Editor/NodeEditorGUILayout.cs" />
+        <option value="$PROJECT_DIR$/Assets/Narrative/DialogOption/Node/DialoOptionNodeEditor.cs" />
       </list>
     </option>
   </component>
@@ -182,6 +166,7 @@
       <workItem from="1606297727921" duration="18794000" />
       <workItem from="1606359382558" duration="22732000" />
       <workItem from="1606462656881" duration="10345000" />
+      <workItem from="1606488150649" duration="12488000" />
     </task>
     <servers />
   </component>
@@ -274,10 +259,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="375" key="GridCell.Tab.3.right/0.0.1920.1040/-1920.-65.1920.1040@0.0.1920.1040" timestamp="1606440157704" />
-    <state x="794" y="220" key="RiderGenerateDialog" timestamp="1606393691342">
+    <state x="794" y="220" key="RiderGenerateDialog" timestamp="1606530214118">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="220" key="RiderGenerateDialog/0.0.1920.1040/-1920.-65.1920.1040@0.0.1920.1040" timestamp="1606393691342" />
+    <state x="794" y="220" key="RiderGenerateDialog/0.0.1920.1040/-1920.-65.1920.1040@0.0.1920.1040" timestamp="1606530214118" />
     <state x="2714" y="220" key="RiderGenerateDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1606199976594" />
     <state x="2012" y="92" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1606463792545">
       <screen x="1920" y="0" width="1920" height="1040" />
@@ -287,10 +272,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1920.-65.1920.1040@0.0.1920.1040" timestamp="1606390165496" />
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606473388894">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606553902445">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.-65.1920.1040@0.0.1920.1040" timestamp="1606439205665" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.-65.1920.1040@0.0.1920.1040" timestamp="1606553902445" />
     <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1606473388894" />
   </component>
   <component name="XDebuggerManager">

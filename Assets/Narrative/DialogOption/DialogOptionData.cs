@@ -10,6 +10,7 @@ namespace SETHD.Narrative.DialogOption
         public int count => options.Count;
         public string id;
         public string name;
+        public bool haveExit;
         public List<OptionData> options = new List<OptionData>();
         
         public DialogOptionData(){}
@@ -28,7 +29,7 @@ namespace SETHD.Narrative.DialogOption
     [Serializable]
     public class OptionData
     {
-        public bool exitOnSelect;
+        public bool overrideExit;
         public string value;
     }
 }

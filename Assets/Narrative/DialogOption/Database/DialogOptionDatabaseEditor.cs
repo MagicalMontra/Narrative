@@ -1,4 +1,6 @@
-﻿using nanoid;
+﻿using System;
+using System.Collections.Generic;
+using nanoid;
 using UnityEditor;
 using UnityEngine;
 
@@ -7,15 +9,44 @@ namespace SETHD.Narrative.DialogOption
     [CustomEditor(typeof(DialogOptionDatabase))]
     public class DialogOptionDatabaseEditor : Editor
     {
+        private List<string> _exitPopup = new List<string>();
+        private List<List<string>> _exitPopups = new List<List<string>>();
+        private List<int> _exitValues = new List<int>();
+        private List<int> _exitValueComparer = new List<int>();
+
         private DialogOptionDatabase _database;
         private DialogOptionData _newData = new DialogOptionData();
 
         private string _searchString = "";
         private string _oldName;
         private bool _debugToggle;
+        private int _newDataHaveExit;
+        private int _oldNewDataHaveExit;
         private void OnEnable()
         {
             _database = (DialogOptionDatabase)target;
+            
+            _exitPopup.Clear();
+            _exitPopup.Add("No");
+            _exitPopup.Add("Yes");
+
+            _exitPopups.Clear();
+            _exitValues.Clear();
+            _exitValueComparer.Clear();
+            
+            for (int i = 0; i < _database.data.Count; i++)
+            {
+                var exitPopup = new List<string>();
+                _exitValues.Add(_database.data[i].haveExit ? 1 : 0);
+                _exitValueComparer.Add(_database.data[i].haveExit ? 1 : 0);
+                for (int j = 0; j < _database.data[i].options.Count; j++)
+                {
+                    exitPopup.Add("No");
+                    exitPopup.Add("Yex");
+                }
+                
+                _exitPopups.Add(exitPopup);
+            }
         }
 
         public override void OnInspectorGUI()
@@ -49,6 +80,14 @@ namespace SETHD.Narrative.DialogOption
             EditorGUILayout.BeginVertical("Button");
             GUILayout.Label("Dialog Name", EditorStyles.largeLabel);
             _newData.name = EditorGUILayout.TextField(_newData.name);
+            GUILayout.Label("Have an exit option?", EditorStyles.largeLabel);
+            _newDataHaveExit = EditorGUILayout.Popup(_newDataHaveExit, _exitPopup.ToArray());
+
+            if (_oldNewDataHaveExit != _newDataHaveExit)
+            {
+                _oldNewDataHaveExit = _newDataHaveExit;
+                _newData.haveExit = Convert.ToBoolean(_newDataHaveExit);
+            }
 
             if (_oldName != _newData.name)
             {
@@ -79,6 +118,8 @@ namespace SETHD.Narrative.DialogOption
             for (int i = 0; i < _newData.options.Count; i++)
             {
                 GUILayout.Label($"Option#{i}: {_newData.options[i].value}", EditorStyles.largeLabel);
+                GUILayout.Label("Override exit option");
+                _newData.options[i].overrideExit = EditorGUILayout.Toggle( _newData.options[i].overrideExit);
                 _newData.options[i].value = EditorGUILayout.TextArea(_newData.options[i].value);
                 
                 EditorGUILayout.BeginHorizontal();
@@ -127,6 +168,18 @@ namespace SETHD.Narrative.DialogOption
                 
                 EditorGUILayout.Space(5);
                 EditorGUILayout.EndVertical();
+                
+                EditorGUILayout.BeginVertical("Button");
+                GUILayout.Label("Have an exit option?", EditorStyles.largeLabel);
+                _exitValues[i] = EditorGUILayout.Popup(_exitValues[i], _exitPopup.ToArray());
+                EditorGUILayout.Space(5);
+                EditorGUILayout.EndVertical();
+
+                if (_exitValues[i] != _exitValueComparer[i])
+                {
+                    _exitValueComparer[i] = _exitValues[i];
+                    _database.data[i].haveExit = Convert.ToBoolean(_exitValues[i]);
+                }
 
                 EditorGUILayout.BeginVertical("Button");
                 GUILayout.Label("Options", EditorStyles.largeLabel);
@@ -134,7 +187,17 @@ namespace SETHD.Narrative.DialogOption
                 {
                     EditorGUILayout.BeginVertical("Button");
                     GUILayout.Label($"Option#{j}: {_database.data[i].options[j].value}", EditorStyles.largeLabel);
-                    _database.data[i].options[j].exitOnSelect = EditorGUILayout.Toggle(_database.data[i].options[j].exitOnSelect);
+                    GUILayout.Label("Override exit option");
+                    _database.data[i].options[j].overrideExit = EditorGUILayout.Toggle(_database.data[i].options[j].overrideExit);
+
+                    if (_database.data[i].options.Exists(o => o.overrideExit && o != _database.data[i].options[j]))
+                    {
+                        var option = _database.data[i].options.FindIndex(o => o.overrideExit && o != _database.data[i].options[j]);
+
+                        if (option != j)
+                            _database.data[i].options[j].overrideExit = false;
+                    }
+                    
                     _database.data[i].options[j].value = EditorGUILayout.TextArea(_database.data[i].options[j].value);
                     EditorGUILayout.Space(5);
                     EditorGUILayout.BeginHorizontal();

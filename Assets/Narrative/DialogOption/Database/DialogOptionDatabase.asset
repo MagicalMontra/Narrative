@@ -16,8 +16,9 @@ MonoBehaviour:
   data:
   - id: dialog_option_test_NoOsKzP4
     name: test
+    haveExit: 0
     options:
-    - exitOnSelect: 1
-      value: test 1
-    - exitOnSelect: 0
-      value: test 2
+    - overrideExit: 0
+      value: test1
+    - overrideExit: 1
+      value: test2
